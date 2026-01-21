@@ -68,7 +68,7 @@ body {
     line-height: 1;
 }
 
-.logo span {
+.logo img {
     font-family: serif;
     font-size: 1.5rem;
     font-weight: 700;
@@ -76,6 +76,8 @@ body {
     letter-spacing: 0.05em;
     text-transform: uppercase;
     transition: opacity 0.2s ease;
+    height: 70px;
+
 }
 
 .logo:hover span {
