@@ -190,7 +190,6 @@ body {
     display: grid;
     gap: 30px;
     grid-template-columns: 1fr;
-    margin: 0 10px;
 }
 
 .hero-image-wrapper {
@@ -210,14 +209,18 @@ body {
     position: absolute;
     inset: 0;
     background: rgba(0, 0, 0, .2);
-    transform: translate(16px, 16px);
+    transform: translate(15px, 15px);
     filter: blur(20px);
 }
 
 @media (max-width: 768px) {
     .hero-image-shadow {
         transform: translate(8px, 8px);
-        filter: blur(10px);
+        filter: blur(20px);
+    }
+
+    .hero-title {
+        font-size: small;
     }
 }
 
@@ -383,6 +386,8 @@ body {
 .intro-text {
     padding: 4rem 0 6rem;
     margin: 20px;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .intro-text .section-title {
@@ -405,12 +410,13 @@ body {
 .footer {
     background: #111;
     color: #fff;
-    padding: 4rem 0;
+    padding: 4rem 1rem;
 }
 
 .footer-grid {
     display: grid;
     gap: 3rem;
+    margin-bottom: 20px;
 }
 
 /* LOGO */
@@ -612,4 +618,3 @@ body {
 #next {
     right: 10px;
 }
-
