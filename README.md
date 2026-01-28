@@ -18,5 +18,5 @@ Mettre en valeur la programmation à travers une landing page claire, attrayante
 - JavaScript
 
 ## Lien
-https://sophiepayette.github.io/SalleTest/
+https://sophiepayette.github.io/SalleDesilets/
 
